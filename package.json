@@ -1,0 +1,30 @@
+{
+  "name": "portafolio1",
+  "version": "1.0.0",
+  "description": "Portafolio with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJ007-07/Portafolio1.git"
+  },
+  "keywords": [
+    "nodejs",
+    "portafolio",
+    "javascript"
+  ],
+  "author": "James Barragan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JJ007-07/Portafolio1/issues"
+  },
+  "homepage": "https://github.com/JJ007-07/Portafolio1#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
