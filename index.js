@@ -13,15 +13,15 @@ app.get('/', (req, res) => {
   res.render('index')
 })
 
-app.get('/educacion', (req, res) => {
-  res.render('educacion', {
-    titulo: "Sección de educación",
-    descripción: "Aquí encontraras mi formación academica"
+app.get('/privacidad', (req, res) => {
+  res.render('privacidad', {
+    titulo: "Sección de privacidad",
+    descripción: "Aquí encontraras la privacidad del portafolio"
   })
 })
 
-app.get('/laboral', (req, res) => {
-  res.send('Pagina de experiencia laboral')
+app.get('/terminos', (req, res) => {
+  res.send('Pagina de experiencia terminos')
 })
 
 app.use((req, res, next) => {
