@@ -21,7 +21,10 @@ app.get('/privacidad', (req, res) => {
 })
 
 app.get('/terminos', (req, res) => {
-  res.send('Pagina de experiencia terminos')
+  res.render('terminos', {
+    titulo: "Sección de terminos",
+    descripción: "Aquí encontraras la privacidad del portafolio"
+  })
 })
 
 app.use((req, res, next) => {
